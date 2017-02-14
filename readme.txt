@@ -1,1 +1,4 @@
-git is useful tool
+
+
+Git is a distributed version control system.
+Git is free software.
