@@ -34,7 +34,11 @@ module.exports={
 				// exclude: path.resolve(__dirname, './node_modules'),
 				loader:'style!css'//添加对样式表的处理
 				// loaders: ['style', 'css']
-			}
+			},
+			{
+	            test: /\.scss$/,
+	            loader: 'style!css!sass'
+	        }
 		]
 	},
 

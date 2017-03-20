@@ -14,10 +14,13 @@ import Grids from './components/Grids.js';
 import Layouts from './components/Layouts.js';
 import Navigations from './components/Navigations.js';
 
+import Home from './assets/home.js';
+
 import 'antd/dist/antd.css';
 
 render( <Router history={ hashHistory } >
-			<Route path="/" component={IndexPage} />
+            <Route path="/" component={IndexPage} />
+			<Route path="/home" component={Home} />
             <Route path='/button' component={Buttons} />
             <Route path='/icon' component={Icons} />
             <Route path='/grid' component={Grids} />

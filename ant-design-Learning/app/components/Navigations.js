@@ -2,7 +2,7 @@ import React from 'react';
 import { Affix, Button, BackTop, Breadcrumb, Icon } from 'antd';
 import common from './common.css';
 
-class Navigations extends React.Component{
+export default class Navigations extends React.Component{
 	render(){
 		return (
 
@@ -29,5 +29,3 @@ class Navigations extends React.Component{
 		);
 	}
 }
-
-export default Navigations;

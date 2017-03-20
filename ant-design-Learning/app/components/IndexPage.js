@@ -11,6 +11,7 @@ export default class IndexPage extends React.Component {
         </header>
         <div className='practiceItem'>
           <ul>
+              <li><Link to="/home">Home</Link></li>
               <li><Link to="/button">Buttons</Link></li>
               <li><Link to="/icon">Icons</Link></li>
               <li><Link to="/grid">Grids</Link></li>
